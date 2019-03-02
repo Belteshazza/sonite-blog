@@ -91,14 +91,14 @@ Route::get('/tag/{id}', [
 
 Auth::routes();
 
-Route::get('/dashboard', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('home');
 
 
 
 
 Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function(){
 
-    Route::get('/dashboard', [
+    Route::get('/home', [
 
         'uses' => 'HomeController@index',
 
