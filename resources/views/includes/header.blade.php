@@ -23,7 +23,7 @@
 
                     <nav id="primary-menu" class="primary-menu">
                         <a href='javascript:void(0)' id="menu-icon-trigger" class="menu-icon-trigger showhide">
-                            <span id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: hidden">
+                            <span id="menu-icon-wrapper" class="menu-icon-wrapper" style="background-color:silver" style="visibility: hidden">
                                 <svg width="1000px" height="1000px">
                                     <path id="pathD" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
                                     <path id="pathE" d="M 300 500 L 700 500"></path>
